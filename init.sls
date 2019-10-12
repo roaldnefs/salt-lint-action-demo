@@ -6,4 +6,3 @@ salt-lint:
     - name: salt-lint
     - require:
       - pkg: python-pip
-
