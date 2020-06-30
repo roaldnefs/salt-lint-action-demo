@@ -1,9 +1,11 @@
-on: [push]
+name: salt-lint
+
+on: [ push ]
 
 jobs:
   test:
     runs-on: ubuntu-latest
-    name: Salt Lint Action Demo
+
     steps:
     - uses: actions/checkout@v1
     - name: Run salt-lint
